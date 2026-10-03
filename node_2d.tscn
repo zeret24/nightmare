@@ -1,0 +1,141 @@
+[gd_scene format=3 uid="uid://cnflbcat81v0l"]
+
+[ext_resource type="Script" uid="uid://bb3lkil26yu6w" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://b4eriw3x7m0ar" path="res://maps/пещера 1.jpg" id="2_0e48y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yf5fn"]
+size = Vector2(386, 353.9375)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(2807, 121.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_57qmd"]
+size = Vector2(565, 275)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d0u6y"]
+size = Vector2(406, 346)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3gngh"]
+size = Vector2(313, 322)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcnqv"]
+size = Vector2(150, 163)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7numd"]
+size = Vector2(133, 1425.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p1u0y"]
+size = Vector2(314, 306)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5s0fj"]
+size = Vector2(2215.5, 218.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33x8s"]
+size = Vector2(1329, 127)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2j2di"]
+size = Vector2(151, 145)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wgxnn"]
+size = Vector2(151, 1532)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_avnxn"]
+size = Vector2(163.5, 1415)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qssos"]
+size = Vector2(375, 285)
+
+[node name="Node2D" type="Node2D" unique_id=310049087]
+script = ExtResource("1_wtcfe")
+
+[node name="Пещера1" type="Sprite2D" parent="." unique_id=1569142221]
+position = Vector2(-1, 0)
+texture = ExtResource("2_0e48y")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Пещера1" unique_id=1130931570]
+position = Vector2(-2.5, 707.875)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D" unique_id=743769641]
+position = Vector2(15.5, -95.90625)
+shape = SubResource("RectangleShape2D_yf5fn")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Пещера1" unique_id=15248767]
+position = Vector2(2, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D2" unique_id=1769056307]
+position = Vector2(-4.5, 706.875)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Пещера1" unique_id=1918444662]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D3" unique_id=1625029535]
+position = Vector2(-462.5, 642.5)
+shape = SubResource("RectangleShape2D_57qmd")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Пещера1" unique_id=2059770690]
+position = Vector2(-462.5, 642.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D4" unique_id=205987105]
+position = Vector2(-77.5, -432.5)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Пещера1" unique_id=320920679]
+position = Vector2(-540, 210)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D5" unique_id=2063420086]
+position = Vector2(-234.5, -133)
+shape = SubResource("RectangleShape2D_3gngh")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Пещера1" unique_id=1264067819]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D6" unique_id=890238166]
+position = Vector2(-693, -164.5)
+shape = SubResource("RectangleShape2D_fcnqv")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Пещера1" unique_id=834725991]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D7" unique_id=730855020]
+position = Vector2(-1340.5, -66.25)
+shape = SubResource("RectangleShape2D_7numd")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Пещера1" unique_id=919898128]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D8" unique_id=315951138]
+position = Vector2(-1247, 69)
+shape = SubResource("RectangleShape2D_p1u0y")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="Пещера1" unique_id=621812970]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D9" unique_id=1529272569]
+position = Vector2(-299.75, -666.125)
+shape = SubResource("RectangleShape2D_5s0fj")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="Пещера1" unique_id=421038286]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D10" unique_id=928819562]
+position = Vector2(-105.5, -518.5)
+shape = SubResource("RectangleShape2D_33x8s")
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="Пещера1" unique_id=1480873120]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D11" unique_id=1232336787]
+position = Vector2(-693.5, -410.5)
+shape = SubResource("RectangleShape2D_2j2di")
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="Пещера1" unique_id=1923490497]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D12" unique_id=1907125471]
+position = Vector2(1326.5, -1)
+shape = SubResource("RectangleShape2D_wgxnn")
+
+[node name="StaticBody2D13" type="StaticBody2D" parent="Пещера1" unique_id=1721169402]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D13" unique_id=1386147365]
+position = Vector2(1196, -62)
+shape = SubResource("RectangleShape2D_avnxn")
+
+[node name="StaticBody2D14" type="StaticBody2D" parent="Пещера1" unique_id=1718977552]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Пещера1/StaticBody2D14" unique_id=312760453]
+position = Vector2(6.5, 175.5)
+shape = SubResource("RectangleShape2D_qssos")
